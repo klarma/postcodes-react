@@ -1,7 +1,10 @@
+import RandomPostcode from "./RandomPostCode";
 import "./App.css";
 
 function App() {
-  return <div>Hello world</div>;
-}
+  return (
+    <RandomPostcode></RandomPostcode>
+  );
+};
 
 export default App;
